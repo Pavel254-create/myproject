@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="lab3.css">
+    <title>Laba 3</title>
+</head>
+<body>
+<div class="container">
+
+   <div class="navigate">
+    <a class="nav" href="../index.html">Лабораторная 1</a>
+        <a class="nav" href="../Лабораторная 2/index.html">Лабораторная 2</a>
+        <a class="nav" href="">Лабораторная 3</a>
+</div>
+
+<div class="list">
+  <h2>Ненумерованный список(Unordered list)</h2>
+   <ul>
+       <li>Text 1</li>
+       <li>Text 2</li>
+       <li>Text 3</li>
+       <li>Text 4</li>
+   </ul>
+<h2>Нумерованный список(Ordered list)</h2>
+    <ol>
+        <li>Text</li>
+        <li>Text</li>
+        <li>Text</li>
+        <li>Text</li>
+    </ol>
+</div>
+<div class="table">
+    <h2>Таблица в html</h2>
+    <p>В данной таблице установлено восемь колонок и три строки. Часть ячеек с надписями «Internet Explorer» , «Opera» и «Firefox» объединены где по две, а где и по три ячейки. В ячейке с надписью «Браузер» применено объединение по вертикали.</p>
+     <table border="1" cellpadding="4" cellspacing="0">
+   <tr>
+    <td rowspan="2">Браузер</td>
+    <th colspan="2">Internet  Explorer</th>
+    <th colspan="3">Opera</th>
+    <th colspan="2">Firefox</th>
+   </tr>
+   <tr>
+    <th>6.0</th><th>7.0</th><th>7.0</th><th>8.0</th><th>9.0</th><th>1.0</th><th>2.0</th>
+   </tr>
+   <tr align="center">
+    <td>Поддерживается</td>
+    <td>Нет</td><td>Да</td><td>Нет</td><td>Да</td><td>Да</td><td>Да</td><td>Да</td>
+   </tr>
+  </table>
+</div>
+<div class="video">
+   <h2>Вставка видео на страницу</h2>
+   <p>Это очень просто. Идете на ютуб и находите там тот ролик, которое вам нужно вставить к себе на страницу. Под ним есть пару кнопок. В частности, кнопка “Поделиться”. Здесь выбираем пункт html-код и ютуб покажет нам код, который надо вставить у себя в статье, чтобы видео вывелось в ней.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/CvEttNvty0U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<div class="audio">
+  <h2>Вставка аудио файла на страницу</h2>
+  <p>Чтобы добавить аудио файл на Ваш сайт нужно между тегами "audio controls" и "/audio" указать прямую ссылку на файл. Ссылка указывается с помощью тега "SOURCE".</p>
+   <p class="name">Максим - Не отдам</p>
+    <audio controls>
+ <source src="%D0%9C%D0%B0%D0%BA%D1%81%D0%B8%D0%BC%20-%20%D0%9D%D0%B8%D0%BA%D0%BE%D0%BC%D1%83%20%20%D0%BD%D0%B5%20%D0%BE%D1%82%D0%B4%D0%B0%D0%BC.mp3">
+
+ </audio>
+</div>
+
+</div>
+<script src="app.js"></script>
+</body>
+</html>

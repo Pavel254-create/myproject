@@ -1,0 +1,54 @@
+body{
+    font-size: 18px;
+    font-family: Tahoma;
+    line-height: 1.5;
+    color: #fff;
+    background: url(../images/css-fon.jpg) no-repeat;
+}
+.container {
+    width:800px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.navigate {
+    border-radius: 30px;
+    background-color: #000;
+    text-align: center;
+    height: 50px;
+}
+
+
+
+.nav {
+    width: 150px;
+    height: 26px;
+    padding: 12px 20px;
+    margin: 0 auto;
+    
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    
+    color: #fff;
+    background-color: #000;
+}
+
+.nav:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/*Content*/
+.list {
+    width:100%;
+
+}
+.video {
+    margin: 30px auto;
+}
+.name {
+    margin-bottom: 0;
+    font-size: 15px;
+
+}
